@@ -55,7 +55,7 @@ const WhatToInsure: FC = () => {
 
   return (
     currentStep === 1 && (
-      <div className="flex min-h-screen w-full flex-grow flex-col items-center justify-center gap-6">
+      <div className="flex w-full flex-grow flex-col items-center justify-center gap-6 py-10 lg:min-h-screen">
         <h1 className="text-center text-2xl font-bold">
           What do you want to insure?
         </h1>

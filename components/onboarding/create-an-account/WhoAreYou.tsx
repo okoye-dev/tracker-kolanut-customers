@@ -50,7 +50,7 @@ const WhoAreYou: FC = () => {
 
   return (
     currentStep === 2 && (
-      <div className="flex min-h-screen w-full flex-col items-center justify-center gap-6">
+      <div className="flex w-full flex-col items-center justify-center gap-6 py-10 lg:min-h-screen">
         <PreviousBtn handleClick={() => dispatch(goToStep(currentStep - 1))} />
 
         <h1 className="] text-center text-2xl font-bold">Who are you?</h1>
